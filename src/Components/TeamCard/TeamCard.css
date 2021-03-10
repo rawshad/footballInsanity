@@ -1,0 +1,12 @@
+.league__button--area {
+    border: none!important;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.league__button {
+    width: 131px;
+    height: 48px;
+    background-color: #3A42FF;
+    color: #FFFFFF;
+}
