@@ -22,7 +22,7 @@ const Information = (props) => {
         strFacebook, strYoutube, strTwitter } = information;
     console.log(information);
     return (
-        <div>
+        <div className="team__container">
             <Header />
             <section className="container team__information p-4">
                 <div className="row">
