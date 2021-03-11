@@ -19,7 +19,7 @@ const Information = (props) => {
     }, [teamId]);
     const { idAPIfootball, intFormedYear, strCountry, strGender, strSport,
         strTeamFanart3, strTeam, strDescriptionEN, strStadiumDescription,
-        strFacebook, strYoutube, strTwitter } = information;
+        strFacebook, strYoutube, strTwitter, strTeamFanart4 } = information;
     console.log(information);
     return (
         <div className="team__container">
@@ -36,7 +36,11 @@ const Information = (props) => {
                         </ul>
                     </div>
                     <div className="col-md-6 p-4 team__banner">
-                        <img className="img-fluid rounded" src={strTeamFanart3} />
+                        {/* <img className="img-fluid rounded" src={strTeamFanart3} /> */}
+                        {/* This is Conditional Formatting */}
+                        {strGender=== 'Male'? 
+                        <img className="img-fluid rounded" src={strTeamFanart3}/>:
+                        <img className="img-fluid rounded" src={strTeamFanart4}/>}
                     </div>
                     <section className="container p-4">
                         <div className="row">
