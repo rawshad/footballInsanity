@@ -1,0 +1,30 @@
+.team__information {
+    background-color: #3A42FF;
+    border-radius: 15px;
+}
+
+.league__info {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+.league__info > li > .league__info__icon {
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer__btn button {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 51px;
+    font-size: 65px;
+    color: rgb(12, 31, 85);
+}
