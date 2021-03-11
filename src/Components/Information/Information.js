@@ -16,7 +16,7 @@ const Information = (props) => {
         fetch(url)
             .then(res => res.json())
             .then(data => setInfo(data.teams[0]))
-    }, []);
+    }, [teamId]);
     const { idAPIfootball, intFormedYear, strCountry, strGender, strSport,
         strTeamFanart3, strTeam, strDescriptionEN, strStadiumDescription,
         strFacebook, strYoutube, strTwitter } = information;
