@@ -1,6 +1,6 @@
 # This is a React Router Assignment
 ## Project-Name : FOOTBALL INSANITY
-### Live Site : [title](https://app.netlify.com/sites/lucid-fermat-960046/overview)
+### Live Site : (https://lucid-fermat-960046.netlify.app/)
 
 # Features
 1. thesportsdb - API used
